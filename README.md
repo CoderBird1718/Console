@@ -24,7 +24,6 @@ A professional, user-friendly theme switcher with memory support.
 ✔ Automatically updates when the OS theme changes  
 ✔ Saves user preference using local storage  
 
----
 
 ##  Visual & UI Effects
 
