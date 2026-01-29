@@ -48,12 +48,19 @@ Navigation, animations, and layouts adapt seamlessly.
 ##  Project Structure
 
 ├── index.html # Homepage
+
 ├── about.html # About Console Hub
+
 ├── skills.html # Features (Console Specs)
+
 ├── education.html # Journey (Racing Track Timeline)
+
 ├── projects.html # Games Library
+
 ├── contact.html # Connect Page
+
 ├── style.css # Gaming console stylesheet
+
 └── script.js # Theme system & interactions
 
 ##  Key Features
@@ -74,8 +81,3 @@ Navigation, animations, and layouts adapt seamlessly.
   - Theme detection
   - Local storage
   - Interactive effects
-
-
-
-## 📁 Project Structure
-
