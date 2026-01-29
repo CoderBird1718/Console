@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gaming Console Hub - Experience the ultimate gaming journey with cutting-edge console technology, innovative game design, and immersive digital experiences.">
+  <meta name="keywords" content="Gaming Console, Game Developer, Level Designer, Console Technology, Gaming Innovation, Digital Gaming">
+  <meta name="author" content="Console Gaming Hub">
+  <meta property="og:title" content="Gaming Console Hub | Next-Gen Gaming Experience">
+  <meta property="og:description" content="Explore the future of gaming through innovative console technology and immersive game design.">
+  <meta property="og:type" content="website">
+  <title>Gaming Console Hub | Next-Gen Experience</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="glass-nav" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <h2 class="logo" aria-label="Gaming Console">Console Hub</h2>
+    <ul class="nav-links" role="menubar">
+      <li role="none"><a href="index.html" role="menuitem" aria-current="page">Home</a></li>
+      <li role="none"><a href="about.html" role="menuitem">About</a></li>
+      <li role="none"><a href="skills.html" role="menuitem">Features</a></li>
+      <li role="none"><a href="education.html" role="menuitem">Journey</a></li>
+      <li role="none"><a href="projects.html" role="menuitem">Games</a></li>
+      <li role="none"><a href="contact.html" role="menuitem">Connect</a></li>
+    </ul>
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle theme mode"><span aria-hidden="true">🌙</span></button>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobileMenu"><span aria-hidden="true">☰</span></button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation menu">
+  <button class="close-menu" id="closeMenu" aria-label="Close mobile menu"><span aria-hidden="true">✕</span></button>
+  <ul class="mobile-nav-links" role="menu">
+    <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+    <li role="none"><a href="about.html" role="menuitem">About</a></li>
+    <li role="none"><a href="skills.html" role="menuitem">Features</a></li>
+    <li role="none"><a href="education.html" role="menuitem">Journey</a></li>
+    <li role="none"><a href="projects.html" role="menuitem">Games</a></li>
+    <li role="none"><a href="contact.html" role="menuitem">Connect</a></li>
+  </ul>
+</div>
+
+<!-- HERO SECTION -->
+<main>
+  <section id="home" class="hero">
+    <div class="hero-content reveal">
+      <div class="profile-image-container">
+        <img src="image/Console.jpg" alt="Gaming Console Experience - Next Generation Platform" class="profile-pic" id="profilePic" loading="eager">
+        <div class="profile-glow" aria-hidden="true"></div>
+      </div>
+      
+      <h1 class="hero-title">
+        <span class="gradient-text">Gaming Console Hub</span>
+      </h1>
+      
+      <div class="typing-container">
+        <p class="hero-subtitle">
+          <span class="typing-text" id="typingText" aria-live="polite"></span>
+          <span class="cursor" aria-hidden="true">|</span>
+        </p>
+      </div>
+      
+      <p class="hero-tagline" aria-label="Gaming attributes">
+        <span class="tag"><strong>Next-Gen Power</strong></span>
+        <span class="tag"><strong>Epic Graphics</strong></span>
+        <span class="tag"><strong>Endless Fun</strong></span>
+      </p>
+
+      <div class="hero-description">
+        <div style="text-align: center;">
+          <p><strong>Welcome to the ultimate gaming console experience! We're redefining the boundaries of interactive entertainment with cutting-edge technology and innovative game design. Our platform brings together the power of next-generation hardware with the creativity of immersive storytelling.</strong></p>
+
+          <p><strong>From stunning 4K graphics to lightning-fast load times, experience gaming like never before. Our console combines raw processing power with intuitive controls, delivering seamless gameplay across every genre. Whether you're exploring vast open worlds, competing in intense multiplayer battles, or enjoying cozy indie adventures, we've built the perfect gaming ecosystem.</strong></p>
+        </div>
+      </div>
+    
+      <div class="hero-buttons">
+        <a href="tel:+919681422028" class="btn btn-secondary glass-btn" aria-label="Contact gaming console support">
+          <span>Get in Touch</span>
+          <span class="btn-icon" aria-hidden="true">📞</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer glass-card" role="contentinfo">
+  <p><em>Designed & crafted by Console Gaming Studios</em></p>
+  <p class="footer-tagline"><strong>&copy; 2026 | Built with passion for gaming | All rights reserved</strong></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
